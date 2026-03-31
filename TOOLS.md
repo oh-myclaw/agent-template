@@ -37,4 +37,22 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+You have access to a full shell-based runtime and a local scripting toolchain on this machine.
+
+Available command-line tools:
+
+- Shell and system tools: `bash`, `curl`, `git`, `unzip`, `xz`
+- Python tools: `python`, `python3`, `pip`, `pipx`, `uv`
+- Node.js tools: `node`, `npm`, `npx`, `corepack`
+- Package-manager `shims` via Corepack: `pnpm`, `yarn` when enabled through Corepack
+
+Native build support:
+
+- The environment includes build prerequisites for packages that compile native extensions
+- Available build dependencies include build-essential, pkg-config, and python3-dev
+
+Prefer to work in `$HOME` directory.
+
+---
+
 Add whatever helps you do your job. This is your cheat sheet.
