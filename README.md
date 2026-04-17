@@ -24,7 +24,7 @@ Usually, the file ends with a note that the agent should delete this file.
 ### [HEARTBEAT.md](HEARTBEAT.md)
 
 The agent adds tasks to this file that it should complete later.
-Every 5 minutes, the agent is started with instructions from this file.
+Periodically the agent is started with instructions from this file.
 
 ### [IDENTITY.md](IDENTITY.md)
 
